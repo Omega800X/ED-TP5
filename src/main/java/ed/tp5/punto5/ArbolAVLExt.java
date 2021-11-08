@@ -1,15 +1,10 @@
 package ed.tp5.punto5;
 
-import ar.edu.uner.fcad.ed.arbolesabbyavl.ArbolABB;
 import ar.edu.uner.fcad.ed.arbolesabbyavl.ArbolAVL;
 import ar.edu.uner.fcad.ed.arbolesabbyavl.NodoABB;
 import ar.edu.uner.fcad.ed.edlineales.ListaEnlazadaNoOrdenada;
 import ar.edu.uner.fcad.ed.edlineales.iteradores.Iterador;
 
-/**
- *
- * @author Fer
- */
 public class ArbolAVLExt<T extends Comparable<T>> extends ArbolAVL<T> implements ArbolAVLExtInterfaz<T> {
 
     @Override

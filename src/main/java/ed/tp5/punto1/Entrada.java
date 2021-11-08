@@ -6,10 +6,6 @@ package ed.tp5.punto1;
 
 import java.util.Objects;
 
-/**
- *
- * @author Fer
- */
 public class Entrada<K, V> {
 
     private K clave;
